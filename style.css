@@ -1,0 +1,79 @@
+/* selector {
+	property: value;
+} */
+
+/* weight or specificity */
+
+/* element | class | id */
+/* least | medium | most */
+
+/* id is unique */
+/* classes are re-usable */
+
+
+body {
+	background-color: rgb(246, 243, 243);
+	color: #a9afae;
+}
+
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-family: 'Lora', serif;
+}
+
+#profile-picture {
+	width: 200px;
+	border-radius: 50%;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.container {
+	width: 500px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+/* element-design */
+.card-white {
+	background-color: white;
+	padding: 40px;
+	margin: 20px 0;
+	border-radius: 4px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.btn-blue {
+	background-color: blueviolet;
+	padding: 8px;
+	border-radius: 4px;
+	color: white;
+	text-decoration: none;
+}
+
+.btn-blue:hover {
+	background-color: black;
+}
+
+.list-inline a {
+	color: blueviolet;
+}
+
+.list-inline a:hover {
+	color: black;
+}
+
+.list-inline i {
+	font-size: 40px;
+}
+
+.list-inline li {
+	display: inline;
+	margin: 0 12px;
+}
